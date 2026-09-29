@@ -1,0 +1,39 @@
+// Graph
+digraph {
+	A [fillcolor=lightblue style=filled]
+	B
+	C
+	D [fillcolor=lightblue style=filled]
+	E
+	F [fillcolor=lightblue style=filled]
+	A -> E [label="weight:2
+length:10                
+category:normal
+traffic:12                
+rate:1" len=10]
+	B -> A [label="weight:3
+length:15                
+category:highway
+traffic:17                
+rate:1" len=15]
+	C -> B [label="weight:4
+length:16                
+category:residential
+traffic:70                
+rate:0.8" len=16]
+	D -> F [label="weight:2
+length:11                
+category:residential
+traffic:79                
+rate:0.4" len=11]
+	E -> C [label="weight:3
+length:8                
+category:highway
+traffic:37                
+rate:0.8" len=8]
+	F -> A [label="weight:2
+length:16                
+category:residential
+traffic:41                
+rate:0.6" len=16]
+}
